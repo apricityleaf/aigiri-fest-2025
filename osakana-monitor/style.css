@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background: #8fcfdb;/*画用紙の色と(ほぼ)同じ*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+canvas {
+  image-rendering: pixelated;
+}
+video {
+  display: none;
+}
